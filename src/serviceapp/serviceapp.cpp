@@ -423,7 +423,7 @@ void eServiceApp::pushSubtitles()
 			next_timer = 110;
 			goto exit;
 		}
-		// eDebug("eServiceApp::pushSubtitles - push subtitles, clock stable");
+		eDebug("eServiceApp::pushSubtitles - push subtitles, clock stable");
 	}
 	decoder_ms = (running_pts - delay) / 90;
 
